@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    background-color:white;
+    width: 100%;
+    height: 9vh;
+}
+.logo{
+    width: 300px;
+    height: 60px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 100px;
+    font-size: 14Spx;
+    font-family: Arial;  
+}
+.menu{
+    
+    height: 7vh;
+    padding: 12px;
+    padding-left: 5px;
+    
+   background-color: white;
+}
+ul{
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+     float: left;
+    list-style: none;
+    padding: 10px; 
+    border-left: 5px solid orangered;   
+}
+.nav ul li a{ 
+    font-size: 22px;
+    color: black;
+    text-decoration: none;
+    margin-right: 0px;
+    }
+ ul li a:hover{
+        color: orangered;
+    }
+
+.slider{
+    width: 100%;
+    height: 60vh;
+    background-color: brown;
+    background-size: cover;
+    background-position: center;
+    animation: slider 15s infinite;
+}
+@keyframes slider{
+    0%{
+        background-image: url(image/01\ \(1\).jpg);
+    }
+    20%{
+        background-image: url(image/1687.jpg);
+    }
+    40%{
+        background-image: url(image/01\ \(3\).jpg);
+    }
+    60%{
+        background-image: url(image/01\ \(4\).jpg);
+    }
+    80%{
+        background-image: url(image/01\ \(5\).jpg);
+    }
+    100%{
+        background-image: url(image/1\ \(2\).jpg);
+    }
+}
+
+.content{
+    width: 40%;
+    height: 50vh;
+    margin-left: 100px;    
+}
+.content h2{
+    color: white;
+    padding-top: 120px;
+    padding-left: 20px;
+    font-family: Arial;
+    letter-spacing: 1.5px;
+    font-size: 45px;
+}
+.span1{
+    font-size: 15px;
+    padding-top: 5px;
+    letter-spacing: 1.5px;
+    color: white;
+    font-family: Arial;   
+}
+.btn{
+    
+    width: 15%;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 50px;
+    color: white; 
+}
+.courses h1{
+    text-align: center;
+    font-size: 45px;
+    font-family: Arial;
+    color: black;
+    margin-top: 10px;
+}
+.courses{
+    margin-top: 20px;
+    margin: 50px;
+
+}
+.footer{
+    background-color: rgba(0, 0, 0, 0.289);
+    width: 100%;
+    height: 30vh;
+    color: black;
+
+}
+.accounts a{
+    list-style: none;
+    color: orangered;
+    align-items: center;
+    font-size: 18px;
+}
+.accounts a:hover{
+    color: white;
+    
+}
+.accounts{
+    text-decoration: none;
+    color: orangered;
+    font-size: 18px;
+     align-items: center;}
