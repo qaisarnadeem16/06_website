@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+
+let Total_MArks=prompt();
+let Obtain_Marks=prompt();
+let persentage=(Obtain_Marks/Total_MArks)*100;
+ document.write(persentage)
+ if(persentage>=33){
+     alert("Pass");
+     if(persentage>=80){
+         alert("A+ Grade");
+     }else if(persentage>=60){
+         alert("B Grade");
+     }else if(persentage>=40){
+         alert("C Grade");
+     }
+
+ }else{
+     alert("Fail")
+ }
+</script>
+</body>
+</html>
