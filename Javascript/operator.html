@@ -7,7 +7,27 @@
     <title>Document</title>
 </head>
 <body>
+    <input type="text" id="input1" >
+    <input type="text" id="input2" >
+    <button id="BTN"> click</button>
     <script>
+        var input1=document.getElementById('input1');
+        var input2=document.getElementById('input2');
+        var  btn=document.getElementById('BTN');
+         btn.addEventListener('click', function() {
+            if(input1.value==''){
+            // alert("Input A is empty");
+            input1=prompt("Enter the Value of A");
+             }
+            if(input2.value==''){
+            input2=prompt("Enter the Value of b");
+             }
+          
+            let z=parseInt(input1.value)+parseInt(input2.value);
+
+            document.write(z);
+        });
+        
         // var a=20;
         // var b=10;
         // document.write(a!=b);
@@ -32,11 +52,13 @@
         // }
         
 
-        var a=0;
-        while(a<=10){
-            document.write("qaisar gill  <br>");
-            a=a+1;
-        }
+        // var a=0;
+        // while(a<=10){
+        //     document.write("qaisar gill  <br>");
+        //     a=a+1;
+        // }
+
+        
 
         
     </script>

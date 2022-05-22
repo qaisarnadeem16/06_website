@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+       // Write a JavaScript program that accept two integers and display the larger
+    //    const a=parseInt(prompt("enter A"));
+    //    const b=parseInt(prompt("enter B"));
+    //    if(a>b){
+    //        document.write("A is greater")
+    //    }else{
+    //     document.write("B is greater")
+    //    }
+
+
+
+    // Write a JavaScript for loop that will iterate from 0 to 15. For each iteration, it will check if the current number is odd or even, and display a message to the screen.
+    // let a=1;
+    // a=parseInt(a);
+    // for(a=1; a<15; a++){
+    //     if(a%2==0){
+    //         document.write(a + '  '+"is Even" + "<br>");
+    //     }else{
+    //         document.write(a +'  '+ "is Odd"  + "<br>");
+    //     }
+    // }
+
+
+    let a=1;
+    a=parseInt(a);
+    for(a=1; a<100; a++){
+        if(a%3==0){
+            document.write(a + '  '+"FIZZ" + "<br>");
+        }else if(a%5==0){
+            document.write(a + '  '+"BUZZ" + "<br>");
+        }else if(a%3==0 && a%5==0){
+            document.write(a + '  '+"FIXX BUZZ" + "<br>");
+        }
+        else{
+            document.write(a +'  ' + "<br>");
+        }
+    }
+
+
+   </script> 
+</body>
+</html>
